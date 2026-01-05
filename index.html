@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My CV | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<header>
+  <img src="profile.jpg" class="profile-img">
+  <h1>Win Lai</h1>
+  <p>Junior Web Developer (JavaScript)</p>
+  <a href="about.html" class="btn">About Me</a>
+</header>
+
+<section>
+  <h2>📄 CV Summary</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Basic React & Git</li>
+    <li>Web Form & Email Integration</li>
+  </ul>
+</section>
+
+<section>
+  <h2>💻 Projects</h2>
+  <p>
+    🔗 GitHub: 
+    <a href="https://github.com/yourusername" target="_blank">
+      https://github.com/yourusername
+    </a>
+  </p>
+</section>
+
+<section>
+  <h2>📧 Contact Me</h2>
+
+  <form id="contact-form">
+    <input type="text" name="from_name" placeholder="Your Name" required>
+    <input type="email" name="reply_to" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send to My Gmail</button>
+  </form>
+
+  <p id="status"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
